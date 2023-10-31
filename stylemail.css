@@ -1,0 +1,277 @@
+@import url('https: //www.dafont.com/es/gilbert-qualifi.font?text=Dishes');
+
+@import url('https://fonts.googleapis.com/family=Oxygen:wght@300;400&display=swap');
+
+* {
+ 
+    }
+header {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(img/mailheader.png);
+    background-repeat: no-repeat;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 1px;
+}
+
+.banner-text {
+    padding: 50px 30px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.banner-text h1 {
+    font-size: 35px;
+    padding: 20px;
+    margin-bottom: 0px;
+    
+}
+
+.banner-text span {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+
+}
+
+.banner-text h2 {
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.banner-text p {
+    font-size: 12px;
+    color: #eceaaa;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.logo {
+    padding-top: 30px;
+    margin: 0px 180px 0px ;
+    
+}
+.button2 {
+    font-size: 14;
+    color: #ce2279;
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px 50px;
+    margin-top: 30px;
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+}
+
+.button2:hover {
+    text-transform: capitalize;
+    color: white;
+    background-color: #1673fe;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+.site-title{
+    color: #ce2279;
+}
+.about-area {
+    padding-top: ;
+    
+    position: relative;
+}
+
+.about-left {
+    width: 80%;
+    position: relative;
+}
+
+.about-shape {
+    position: absolute;
+    left: 20px;
+    bottom: -50px;
+    z-index: -1;
+}
+
+
+
+.about-img {
+    position: relative;
+}
+
+.about-img img {
+    border-radius: 15px;
+}
+
+.about-experience {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    right: -50px;
+    bottom: 30px;
+    background: #ce2279;
+    border-radius: 15px;
+    padding: 10px 20px 10px 10px;
+    color: #fff;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 10%);
+}
+
+
+
+.about-experience-icon img {
+    width: 50px;
+}
+
+.about-right {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+
+.about-list-wrapper {
+    position: relative;
+    color: #000000;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-list {
+    position: relative;
+    display: block;
+}
+
+.about-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.about-list li::before {
+    content: "\f058";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: "Font Awesome 6 Pro";
+    color: #ce2279;
+}
+/*REVOLUCION*/
+
+.contenedor-dos{
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+}
+.textos-2 h1{
+    font-size: 25px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.textos-2 p{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+
+/*100%*/
+.contenedor-tres{
+    width: 100%;
+    height: 650px;
+    background-image: url(images/illustration-stay-productive.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: center;
+
+}
+
+.textos-3{
+    color: white;
+    padding-top: 400px;
+    
+}
+.textos-3 h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    padding-left: 25px;
+}
+.textos-3 p{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+ul li a{
+    padding-left: 25px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul li a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+/*INFOGRAFIA*/
+
+.infografia-dos {
+    color: #ce2279;
+    width: 100%;
+    height: 20%;
+}
+
+.infografia-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.textos-2 h1 {
+    color:#ce2279;
+    font-size: 12px;
+    padding-top: 30px;
+    text-align: center;
+}
+.icondos{
+    width: 90px;
+    height:90px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.icondosa {
+    width: 90%;
+    height: 120px;
+    margin-left: 20px;
+}
+.button2a {
+    font-size: 14;
+    color: #ffffff;
+    background-color:#ce2279;
+    border-radius: 40px;
+    padding: 10px 50px;
+    margin-top: 30px;
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+}
+
+.button2a:hover {
+    text-transform: capitalize;
+    color: white;
+    background-color: #1673fe;
+    font-family: 'Oxygen', sans-serif;
+}
+.footer{
+    text-align: center;
+    color: #ce2279;
+}
